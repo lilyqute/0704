@@ -1,6 +1,5 @@
  .header{
   width:100%; 
-  height:50px;
   background-color:blue;
   text-align:center;
   line-height:50px;
@@ -8,7 +7,6 @@
 }
 .nav{
   width:100%; 
-  height:30px;
   background-color:white;
   text-align:center;
   line-height:30px;
@@ -16,7 +14,6 @@
 }
 .sidebar{
   width:25%; 
-  height:500px;
   background-color:purple;
   text-align:center;
   float:left;
@@ -24,7 +21,6 @@
 }
 .main{
   width:75%; 
-  height:500px;
   background-color:yellow;
   text-align:center;
   line-height:500px;
@@ -33,7 +29,6 @@
 }
 .footer{
   width:100%; 
-  height:20px;
   text-align:center;
   background-color:aqua;
   line-height:20px;
@@ -99,11 +94,14 @@
   position: absolute;
   position: fixed; 
   border:red;
-  border-radius:6px;
+  border-radius:50%;
   background: red;
   color: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 36px;
   width:50px;
   height:50px;
-  top:100%;
-  right:100%;
+  top:80%;
+  left:90%;
 }
