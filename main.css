@@ -98,6 +98,8 @@
 .absolute {
   position: absolute;
   position: fixed; 
+  border:red;
+  border-radius:6px;
   background: red;
   color: white;
   width:50px;
